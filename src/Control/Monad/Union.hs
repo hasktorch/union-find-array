@@ -27,6 +27,7 @@ import Control.Monad.ST
 import Control.Monad.Fix
 import Control.Applicative
 import Control.Arrow (first)
+import Control.Monad
 
 data UState s l = UState {
     next   :: !Int,
